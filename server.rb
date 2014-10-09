@@ -3,8 +3,9 @@ require 'sinatra'
 require 'httparty'
 
 API_AUTH_TOKEN = ENV["MOBICHECKIN_AUTH_TOKEN"]
-# HOST = "https://app.mobicheckin.com"
-HOST = "http://localhost:5000"
+#HOST = "https://app.mobicheckin.com"
+#HOST = "http://localhost:5000"
+HOST = ENV["MOBICHECKIN_HOST"]
 
 metadatas = ["email", "uid", "order_uid", "first_name", "last_name", "company_name", "position", "phone_number", "message"]
 
