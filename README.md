@@ -3,13 +3,11 @@ mobicheckin_hook_live_checkin_bridge
 
 3 env var must be setted in your env :  
 
-MOBICHECKIN_AUTH_TOKEN => to be authenticated on mobicheckin  
-PORT => to run application on this port  
-MOBICHECKIN_HOST => the url of mobicheckin  
+- MOBICHECKIN_AUTH_TOKEN => to be authenticated on mobicheckin  
+- PORT => to run application on this port  
+- MOBICHECKIN_HOST => the url of mobicheckin  
 
-
-
-
+  
 Now you can start the application by running 'foreman start'  
 
 Then set the new chenk ins API webHook on a mobicheckin event :  
